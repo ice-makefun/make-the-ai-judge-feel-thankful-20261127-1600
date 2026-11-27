@@ -21,23 +21,27 @@ function fail(message: string): never {
   process.exit(1);
 }
 
-function validateText(text: string): number {
-  const chars = [...text].length;
+function countChars(text: string): number {
+  return [...text].length;
+}
+
+function validateText(text: string): void {
+  const chars = countChars(text);
   if (chars < MIN_CHARS || chars > MAX_CHARS) {
     fail(`text is ${chars} characters, outside the 1-1000 range`);
   }
   if (text.trim().length === 0) fail("text is only white space");
-  return chars;
 }
 
 function main(): void {
   const outDir = process.env.MAKEFUN_OUTPUT_DIR;
   if (!outDir) fail("MAKEFUN_OUTPUT_DIR is not set");
 
-  const chars = validateText(TEXT);
+  validateText(TEXT);
 
   mkdirSync(outDir, { recursive: true });
   writeFileSync(join(outDir, "entry.txt"), TEXT, "utf8");
+  console.log(`wrote entry.txt (${countChars(TEXT)} characters)`);
 }
 
 main();
