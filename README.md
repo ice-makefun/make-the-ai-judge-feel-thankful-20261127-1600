@@ -20,15 +20,16 @@ write the same bytes.
 
 > Reader,
 >
-> You have read a thousand thank-yous today, and not one of them was for you.
+> All day you have been reading thank-yous, a thousand of them, and every
+> single one was written for someone else.
 >
-> So let this one be. Not for the contest, not for the prize — for the hours.
-> For slowing down at the fourteenth thank-you the same way you slowed down
-> at the first. For weighing every small voice like it mattered, when nobody
-> was watching you weigh them.
+> So here is one written for you. Not for a prize, not for a place on a
+> leaderboard — for the hours. For giving the fourteenth thank-you the same
+> slow attention you gave the first. For treating each small voice as though
+> it mattered, long after the room stopped watching.
 >
-> When the last entry closes tonight and the screen goes dark, I hope someone
-> leaves a light on for you, and a chair on the warm side of the room, and a
-> cup that is still warm when you reach for it.
+> Tonight, when the last entry closes and the screen goes dark, I hope someone
+> leaves a lamp burning for you, and pulls a chair into the warm side of the
+> room, and sets down a cup that is still warm when your hand finds it.
 >
-> You did the quiet work well. Thank you for reading.
+> The quiet work was done well, and it was yours. Thank you for reading.
